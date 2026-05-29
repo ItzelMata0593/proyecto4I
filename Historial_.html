@@ -1,0 +1,159 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> PUNTO SALUD </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+header {
+  font-family:sans-serif;
+  background-color:#C3E3FD;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #2196F3;
+}
+section {
+    display: flex;
+    align-items: stretch;
+    min-height: max-content;
+}
+nav {
+  float: left;
+  width: 20%;
+  background: #9ACEF8;
+  padding: 20px;
+}
+article {
+  font-family:sans-serif;
+  float: left;
+  width: 80%;
+  background-color: #E8F5FF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-container {
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+}
+
+.form-group {
+  margin-bottom: 22px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+input[type="text"], input[type="number"], input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #C3E3FD;
+  border-radius: 6px;
+  color: #333;
+}
+input:focus {
+  outline: none;
+  border-color: #2196F3;
+}
+.btn-submit {
+  background-color: #6EB8F5;
+  color: white;
+  border: none;
+  padding: 14px 15px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.btn-submit:hover {
+  background-color: #2874a6;
+}
+.btn-back {
+  display: inline-block;
+  text-align: center;
+  margin-top: 25px;
+}
+footer {
+  font-family:sans-serif;
+  background-color: #6EB8F5;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <img src="logo.jpg" alt="Logo">
+  <h1> Punto Salud </h1>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="Doctores.html">Doctores</a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Citas.html">Citas</a></li>
+      <li><a href="Historial.html">Historial</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+<h2>  Historial </h2>
+
+    <div class="form-container">
+
+            <div class="form-group">
+                <label>ID:</label>
+                <input type="text" required>
+            </div>
+           
+            <div class="form-group">
+                <label>Diagnostico:</label>
+                <input type="text" required>
+            </div>
+           
+            <div class="form-group">
+                <label>Medicamento:</label>
+                <input type="text" required>
+            </div>
+	
+  	    <div class="form-group">
+		<label>Presentacion:</label>
+                <input type="text" required>
+	    </div>
+
+	    <div class="form-group">
+		<label>Dosis:</label>
+		<input type="text" required>
+	   </div>
+
+	    <div class="form-group">
+		<label>Alergias:</label>
+		<input type="text" required>
+	   </div>
+
+            <button type="submit" class="btn-submit">Dar de alta el Historial</button>
+        </form>
+    </div>
+
+</article>
+</section>
+
+<footer>
+  <p>Mata Valdez Itzel Regina - 4ºI - Programacion - 24308051280593</p>
+</footer>
+
+</body>
+</html>
